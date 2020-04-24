@@ -1,0 +1,13 @@
+.button:hover {
+    -fx-background-color: linear-gradient(#ff0000 0%, #dd0000 20%, #ddaa0000 50%, #cccc00 55%, #ffff00 100%);
+}
+
+.textArea {
+    -fx-font-size: 28 px;
+    -fx-font-weigth: bold;
+    -fx-font-family: "Arial";
+    -fx-effect: innershadow(two-pass-box , black, 7, 0 , 0,1);
+    -fx-fill: linear-gradient(to bottom, derive(#fdffbb,0%), #fcea72) ;
+    -fx-background-color: red;
+
+}
